@@ -1,0 +1,149 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24, 41, 77);
+}
+
+.heading {
+    font-size: 24px;
+    color: white;
+    padding-top: 15px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 41, 77);
+    padding: 25px 100px;
+    
+}
+
+
+#hanna {
+    width: 600px;
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+
+.text {
+    color: white;
+    font-size: 18px;
+}
+
+
+#mee {
+    display: flex;
+    width: 411px;
+    height: 309px;   
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 7px 24px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title,
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    text-align: center;
+    gap: 50px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: #3882F6;
+}
+
+.info {
+    padding-bottom: 5px;
+}
+
+.additional {
+    color: #1F2937;
+}
+
+.quote-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    margin: 70px 0;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 50px 70px 20px 70px; 
+}
+
+.author {
+    margin-left: auto;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 200px 100px 200px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px 10px;
+}
+
+.b-head {
+    display: flex;
+    align-self: center;
+    text-align: left;
+    width: 200px;
+    font-weight: bold;
+}
+
+.b-text {
+    font-weight: lighter;
+}
+
+.signup {
+    border-color: white;
+}
